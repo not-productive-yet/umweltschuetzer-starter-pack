@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap");
+
+body {
+  background-color: #f8f9ee;
+  color: black;
+  font-family: "Oswald";
+}
+
+h1 {
+  text-decoration: underline #009973 0.2em;
+  font-size: 25pt;
+  padding-bottom: 20pt;
+}
+
+p {
+  font-size: 14pt;
+  font-family: "Open Sans";
+}
+
+ol {
+  list-style: none;
+}
+
+.collapsible-header {
+  font-size: 25pt;
+  font-family: "Open Sans";
+}
+
+.collapsible-body {
+  font-size: 16pt;
+  font-family: "Open Sans";
+}
+
+.collapsible-header:hover {
+  font-size: 25pt;
+  font-family: "Open Sans";
+  text-decoration: underline #009973 0.1em;
+}
+.active > .collapsible-header {
+  text-decoration: underline #009973 0.2em;
+}
+
+img {
+  width: 80px;
+  margin-right: 40px;
+}
+
+.container {
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+}
+
+.quote {
+  color: gray;
+  font-style: italic;
+}
+
+footer {
+  background-color: #009973;
+  color: white;
+  font-size: 16pt;
+  padding: 15pt;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #cccccc;
+  font-size: 10pt;
+}
+
+.credit-me {
+  color: #cccccc;
+  padding: 5pt;
+}
+.credit {
+  font-size: 10pt;
+  padding: 5pt;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
