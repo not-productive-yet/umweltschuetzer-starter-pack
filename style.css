@@ -69,6 +69,8 @@ footer {
   font-size: 16pt;
   padding: 15pt;
   height: 250px;
+  margin-top: 5% !important;
+  padding-top: 3% !important;
 }
 
 a:link,
@@ -115,4 +117,9 @@ nav {
 
 .forest {
   background-image: url("./images/forest.jpg");
+}
+
+.divider {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
