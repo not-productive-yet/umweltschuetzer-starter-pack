@@ -21,48 +21,82 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script>
-          $(document).ready(function(){
-        $('.collapsible').collapsible();
+      $(document).ready(function () {
+        $(".collapsible").collapsible();
       });
     </script>
   </head>
 
-  <!-- <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Logo</a>
-      <a href="#" data-target="mobile" class="sidenav-trigger"
-        ><i class="material-icons">menu</i></a
-      >
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div class="forest">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" data-target="mobile" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="">Starter-Liste</a></li>
+          <li><a href="">Ressourcen</a></li>
+          <li><a href="">Impressum</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <ul class="sidenav" id="mobile">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
-  </ul> -->
+    <ul class="sidenav" id="mobile">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">Javascript</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+    </ul>
 
-  <body>
-    <header class="center-align">
+    <header class="left-align starter row">
       <h1>Das Umweltschützer Starter Pack</h1>
-      <p class="container">
+      <p class="starter-text">
         Umweltschutz ist wie das Internet – jeder kennt‘s, keiner versteht‘s und
-        ohne ist scheiße! <br />Hier ein paar (je nach Sturheit) leicht
-        umsetzbare Tipps!
+        ohne ist scheiße!
       </p>
     </header>
-
+  </div>
+  <body>
     <div class="container">
-      <ul class="collapsible popout ">
+      <div class="section">
+        <div class="row">
+          <div class="col">
+            <img src="images/wasserhahn.png" alt="wasserhahn" />
+          </div>
+          <div class="col">
+            <h3>Trinke Leitungswasser</h3>
+          </div>
+        </div>
+        <p>
+          <span
+            >Leicht umsetzbar UND schonend für den Geldbeutel. <br />
+            <span class="quote">
+              „Trinkwasser zählt in Deutschland zu den am besten kontrollierten
+              Lebensmitteln. Das Trinken von Leitungswasser erzeugt weniger als
+              ein Prozent der Umweltbelastungen von Mineralwasser.“
+            </span>
+            – Umweltbundesamt
+            <br />
+            In Deutschland 470.000 entstehen Tonnen Plastikmüll durch
+            Einweg-Plastikflaschen. Der ganze Transport kommt dann auch noch
+            hinzu. (Glasflaschen sind nebenbei auch nicht viel besser)</span
+          >
+        </p>
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <h5>Section 2</h5>
+        <p>Stuff</p>
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <h5>Section 3</h5>
+        <p>Stuff</p>
+      </div>
+
+      <ul class="collapsible popout">
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/wasserhahn.png" alt="wasserhahn" />
             Trinke Leitungswasser
           </div>
@@ -85,7 +119,7 @@
         </li>
 
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/muell.png" alt="wasserhahn" />
             Achte auf Verpackungen und sorge für weniger Abfall
           </div>
@@ -102,7 +136,7 @@
         </li>
 
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/suppe.png" alt="wasserhahn" />
             Schüttle deine Ernährung auf
           </div>
@@ -125,7 +159,7 @@
         </li>
 
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/kaugummi.png" alt="wasserhahn" />
             Kein Kaugummi!
           </div>
@@ -139,7 +173,7 @@
         </li>
 
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/geld.png" alt="wasserhahn" />
             Frage dich gelegentlich: Brauche ich das wirklich?
           </div>
@@ -170,7 +204,7 @@
         </li>
 
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/windkraftanlage.png" alt="wasserhahn" />
             Überprüfe ob du Ökostrom beziehen kannst
           </div>
@@ -186,7 +220,7 @@
         </li>
 
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/recyceln.png" alt="wasserhahn" />
             Gehe sparsam mit den Ressourcen Wasser, Strom und Benzin um
           </div>
@@ -201,7 +235,7 @@
         </li>
 
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/rette-die-welt.png" alt="wasserhahn" />
             Erkenne, dass uns das „Ja, Aber“-Argument nicht weiterbringt
           </div>
@@ -220,7 +254,7 @@
         </li>
 
         <li>
-          <div class="collapsible-header valign-wrapper  ">
+          <div class="collapsible-header valign-wrapper">
             <img src="images/befoerderung.png" alt="wasserhahn" />
             Teile diese Liste und dein Wissen
           </div>

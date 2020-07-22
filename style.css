@@ -1,17 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@600&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap");
 
 body {
   background-color: #f8f9ee;
   color: black;
-  font-family: "Oswald";
+  font-family: "Anton";
 }
 
 h1 {
-  text-decoration: underline #009973 0.2em;
-  font-size: 25pt;
+  color: white;
   padding-bottom: 20pt;
+  margin-top: 0px !important;
+  margin-left: 10% !important;
+  width: 500px;
+}
+
+h3 {
+  margin-top: 10px !important;
 }
 
 p {
@@ -58,10 +64,11 @@ img {
 }
 
 footer {
-  background-color: #009973;
+  background-color: #6e9ca1;
   color: white;
   font-size: 16pt;
   padding: 15pt;
+  height: 250px;
 }
 
 a:link,
@@ -81,5 +88,31 @@ a:active {
 }
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: #aee4ec;
+  background-color: transparent !important;
+}
+
+nav {
+  box-shadow: none !important;
+  -webkit-box-shadow: none;
+  background-color: transparent !important;
+  font-family: "Montserrat";
+}
+
+.starter {
+  padding: 10em;
+  margin-bottom: 5em;
+  height: 920px;
+}
+
+.starter-text {
+  width: 35%;
+  margin-left: 10%;
+  color: white;
+  font-size: 17pt;
+  text-align: justify;
+}
+
+.forest {
+  background-image: url("./images/forest.jpg");
 }
